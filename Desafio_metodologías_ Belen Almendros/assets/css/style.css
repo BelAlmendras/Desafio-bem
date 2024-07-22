@@ -1,0 +1,48 @@
+body{
+    font-family: Poppins;
+}
+nav{
+    background-color: white;
+    border-bottom: 2px solid  #ccc
+    ;
+   padding-left: 5%;
+   padding-bottom: 2%;
+}
+.main__logo{
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+}
+.main__logo img{
+    max-width: 55px;
+    margin-right:2%;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.main__logo p{
+    color: black;
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.5em;
+}
+.novedades{
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+.novedades h1{
+text-align: left;
+font-weight: 700;
+font-size: 1.8em;
+}
+.novedades__principal{
+    grid-column: 1 / span 1;
+}
+.novedades__principal--imagen{
+max-width: 100px;
+}
+.novedades__seccion{
+    grid-column: 2 / span 1; 
+    margin-bottom: 20px; 
+}
