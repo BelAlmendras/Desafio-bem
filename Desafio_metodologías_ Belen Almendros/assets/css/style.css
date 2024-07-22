@@ -29,7 +29,7 @@ nav{
     padding-left: 5%;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 20px;
+    gap: 5px;
 }
 .novedades h1{
 text-align: left;
@@ -40,9 +40,39 @@ font-size: 1.8em;
     grid-column: 1 / span 1;
 }
 .novedades__principal--imagen{
-max-width: 100px;
+max-width: 600px;
+}
+.novedades__principal--logo{
+    max-width: 55px;
+    margin-right:2%;
+    border-radius: 30px;
+    display: inline-block;
+}
+.novedades__principal h3{
+  vertical-align: top;
+   display: inline-block;
 }
 .novedades__seccion{
     grid-column: 2 / span 1; 
     margin-bottom: 20px; 
+}
+.novedades__seccion--imagen{
+    max-width: 100px;
+    border-radius: 6px;
+   
+}
+/* .novedades__seccion h2{
+    display: inline-block;
+} */
+/* .novedades__seccion p{
+    display: inline-block;
+} */
+.novedades__seccion--bloqueimagen{
+    display: inline-block;
+}
+.novedades__seccion--logo{
+    max-width: 55px;
+    margin-right:2%;
+    border-radius: 30px;
+    display: inline-block;
 }
