@@ -39,6 +39,7 @@ nav{
 text-align: left;
 font-weight: 700;
 font-size: 1.8em;
+padding: 5%;
 }
 .novedades__principal{
 grid-column: 1 / span 1;
@@ -87,7 +88,6 @@ border-radius: 6px;
 .novedades__seccion--contenido{
     grid-column: 3 / span 3;
     margin-bottom: 0%;   
-    padding-bottom: 0;
     padding-bottom: 10px;
     vertical-align: top;
 }
@@ -117,15 +117,8 @@ margin: 0;
     margin: 0;
     vertical-align: middle;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: 75% 25%; 
-    gap: 20px;
-}
+
 .populares{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2px;
     margin-bottom: 0px; 
     padding-right: 0;
     padding-left: 5%;
@@ -134,6 +127,7 @@ margin: 0;
     text-align: left;
 font-weight: 700;
 font-size: 1.8em;
+padding: 5%;
 }
 .populares h2{
     font-size: 1.3em;
@@ -141,14 +135,15 @@ font-size: 1.8em;
     margin: 0;
 }
 .populares__seccion{
-    grid-column: 1 / span 1;
+    padding-top: 10px;
 
 }
 .populares__seccion h1{
     margin: 0;
 }
 .populares__seccion--imagen{
-    max-width: 20%;
+    max-width: 60%;
+    border-radius: 5px;
 }
 .populares__seccion--logo{
     max-width: 35px;
@@ -157,6 +152,9 @@ font-size: 1.8em;
     display: inline-block;
     padding-top: 2px;
     vertical-align: middle;
+}
+.populares__seccion h2{
+    font-size: 1.5em;
 }
 .populares__seccion h3{
     font-weight: 500;
@@ -168,17 +166,27 @@ font-size: 1.8em;
 }
 .categorias{
     padding-right: 10%;
+    padding-top: 10%;
+}
+.categorias h1{
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.8em;
+    padding: 5%;
 }
 .categorias img{
 max-width: 100px;
-display: inline-block;
-vertical-align: middle;
-padding-right: 10%;
+padding-right: 15%;
+display: inline;
+margin-right: 20px;
+border-radius: 5px;
 }
 .categorias h2{
-    display: inline-block;
-    vertical-align: middle;
     color: white;
+    text-align: right;
+    display: inline;
+    font-size: 1em;
+
 }
 .categorias__seccion--html, 
 .categorias__seccion--js,
@@ -188,9 +196,36 @@ padding-right: 10%;
 .categorias__seccion--bootstrap{
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 5px;
+    padding-right: 2px;
+    margin-top: 20px;
+    border-radius: 5px;
+
 }
 .categorias__seccion--html{
-    background-color: red;
+    background-color:  #E93E30
+    ;
+}
+.categorias__seccion--js{
+    background-color: #F7E018;
+}
+.categorias__seccion--css{
+    background-color:  #299ED5;
+}
+.categorias__seccion--react{
+    background-color: #292C33;
+}
+.categorias__seccion--vue{
+    background-color: #67C770;
+}
+.categorias__seccion--bootstrap{
+    background-color: #563D7C;
+}
+footer{
+border-top: 2px solid  #ccc;
+padding: 2%;
+}
+footer p{
+    text-align: right;
+    vertical-align: middle;
 }
