@@ -1,0 +1,35 @@
+.login__boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+  }
+
+
+  .login__boton--verde {
+    background-color: $main-color !important; 
+    color: white !important;
+    border: none;
+    @include button-hover-active;
+width: 500px;
+    font-weight: 500 !important
+  }
+  
+  .login__boton--blanco {
+    background-color: white !important;
+    color: #333 !important;
+    border: 1px solid #ccc !important; 
+    @include button-hover-active;
+  width: 500px;
+    font-weight: 700 !important;
+    margin-bottom: 5%;
+  }
+
+  .login__boton--blanco img{
+   padding-right: 5%;
+   width: 10%;
+  }
+  
+
+  

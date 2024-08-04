@@ -1,0 +1,12 @@
+.articulo__encabezado{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.articulo__encabezado p{
+    margin-top: 2%;
+}
+.articulo__encabezado h3{
+    @include display-block;
+    font-weight: 500;
+    font-size: large;
+}

@@ -1,0 +1,18 @@
+.suscripcion__formulario .form-control {
+    flex: 1;
+  }
+  .suscripcion__formulario .btn {
+    margin-left: 15%;
+  }
+  .suscripcion__formulario .form-control, .suscripcion__formulario .btn {
+    height: calc(2.5rem + 2px);
+  }
+
+  .suscripcion__formulario .btn-custom{
+    background-color: lightgrey;
+    color: $primary-color;
+    font-weight: 700;
+    padding-right: 5%;
+    padding-left: 5%;
+    @include button-hover-active;
+  }

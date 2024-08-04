@@ -1,0 +1,22 @@
+@mixin display-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@mixin margin-padding
+{
+    padding: 0px;
+    margin: 0px;
+}
+@mixin button-hover-active($background-color: lightgray, $text-color: white) {
+    
+    &:hover {
+      background-color: $background-color!important;
+      color: $text-color !important;
+    }
+  
+    &:active {
+        background-color: $background-color!important;
+      color: $text-color !important;
+    }
+  }

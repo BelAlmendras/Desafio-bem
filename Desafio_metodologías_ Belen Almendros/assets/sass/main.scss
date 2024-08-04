@@ -1,0 +1,32 @@
+//abstracts
+@import "abstracts/variables";
+@import "abstracts/mixin";
+//base
+@import "base/base";
+
+//layouts
+@import "layouts/nav";
+@import "layouts/novedades";
+@import "layouts/populares";
+@import "layouts/categorias";
+@import "layouts/suscripcion";
+@import "layouts/login";
+@import "layouts/articulo";
+@import "layouts/relacionados";
+@import "layouts/footer";
+
+//components
+@import "components/categorias__seccion";
+@import "components/main__logo";
+@import "components/novedades__seccion";
+@import "components/novedades__principal";
+@import "components/populares__seccion";
+@import "components/suscripcion__formulario";
+@import "components/login__boton";
+@import "components/articulo__encabezado";
+@import "components/articulo__cuerpo";
+//pages
+
+//themes
+
+//vendors

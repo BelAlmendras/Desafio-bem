@@ -1,0 +1,28 @@
+.populares__seccion{
+    padding-top: 10px;
+
+}
+.populares__seccion h1{
+   @include margin-padding;
+}
+.populares__seccion--imagen{
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+.populares__seccion--logo{
+    max-width: 35px;
+    margin-right:2%;
+    border-radius: 30px;
+    padding-top: 2px;
+    @include display-block;
+}
+.populares__seccion h2{
+    font-size: 1.5em;
+}
+.populares__seccion h3{
+    font-weight: 500;
+    font-size: 80%;
+    @include margin-padding;
+    @include display-block;
+}
